@@ -1,0 +1,172 @@
+
+body {
+    font-family: 'Raleway',sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: rgba(104,150,215,0.7);
+
+}
+
+.logo_container {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: auto;
+
+}
+
+.logo {
+    padding: 50px;
+    width: auto;
+    height: 50%;
+
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background-color: #2668c6;
+    color: white;
+    margin:0;
+
+
+
+    
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    padding: 18px 25px;
+    text-transform: uppercase;
+}
+
+.nav a:hover {
+    background-color: #999999;
+}
+
+.contribute {
+    background-color: rgb(209, 47, 47)
+}
+
+.nav_list {
+    font-size: 1.2em;
+}
+
+.button_top {
+    background-color: #2668c6;
+    color: white;
+    font-size: .8em;
+    border: none;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+.button_top:hover {
+
+    cursor: pointer;
+}
+
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 2.5em;
+    font-weight: 300;
+    padding-top: 50px;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 1.1em;
+    font-weight: 400; 
+    padding-bottom: 50px;
+}
+
+.img_container {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    padding-bottom: 20px;
+}
+
+.subtitle {
+    display: flex;
+    justify-content: center; 
+}
+
+.records {
+    display: flex;
+    justify-content: center;
+}
+
+h4 {
+    color: rgb(58, 58, 58);
+    font-weight: 200;
+}
+
+.list {
+    list-style: none;
+    color: rgb(120, 120, 151);
+    font-size: .9em;
+}
+
+.list_sublist {
+    color: rgb(163, 163, 163);
+}
+
+
+.legislation {
+    display: flex;
+    justify-content: center;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+
+.link_section {
+    display: flex;
+    justify-content: center; 
+}
+
+.list_link:hover {
+    color: rgb(65, 65, 192);
+}
+
+.list_link:active {
+    color: red;
+}
+
+.button_bottom {
+    background-color: #2668c6;
+    color: white;
+    font-size: 1.2em;
+    border: none;
+    font-weight: 200;
+}
+
+.button_bottom:hover {
+    background-color: #999999;
+    cursor: pointer;
+}
+
+.buttons__container {
+    display: flex;
+    justify-content: center;
+}
+
+
+.contribute_button {
+    background-color: rgb(209, 47, 47);
+}
