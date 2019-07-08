@@ -43,6 +43,7 @@ header {
 
 .nav a:hover {
     background-color: #999999;
+    cursor: pointer;
 }
 
 .contribute {
@@ -61,12 +62,6 @@ header {
     font-weight: 200;
     text-transform: uppercase;
 }
-
-.button_top:hover {
-
-    cursor: pointer;
-}
-
 
 h1 {
     display: flex;
